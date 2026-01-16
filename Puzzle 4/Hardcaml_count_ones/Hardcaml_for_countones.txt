@@ -1,0 +1,10 @@
+#require "hardcaml";;
+open Hardcaml;;
+open Signal;;
+
+let count_ones a = popcount a;;
+let b = output "b" (count_ones (Signal.input "a" 8));;
+
+let circuit = Hardcaml.Circuit.create_exn ~name:"count_ones" [ b ];;
+
+Hardcaml.Rtl.print Verilog circuit;;

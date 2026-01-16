@@ -1,0 +1,50 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'r_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/puzzle4_part2.v:287]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'din1' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/puzzle4_part2.v:483]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'din2' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/puzzle4_part2.v:484]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'din3' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/puzzle4_part2.v:485]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'din4' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/puzzle4_part2.v:486]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'din5' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/puzzle4_part2.v:487]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'w_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:375]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 7 for port 'r_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:377]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'w_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:387]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 7 for port 'r_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:389]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'w_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:399]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 7 for port 'r_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:401]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'w_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:411]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 7 for port 'r_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:413]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'w_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:423]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 7 for port 'r_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:425]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'w_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:435]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 7 for port 'r_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:437]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'w_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:447]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 7 for port 'r_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:449]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 7 for port 'w_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:459]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 7 for port 'r_addr' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_2/part_2.srcs/sources_1/new/FIFO_rows.v:461]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.word_index_counter(ROW_SIZE=139)
+Compiling module xil_defaultlib.ring_row_index(ROW_SIZE=139)
+Compiling module xil_defaultlib.row_reg(ROW_SIZE=139)
+Compiling module xil_defaultlib.data_mux_4x1(DATA_WIDTH=34)
+Compiling module xil_defaultlib.count_ones
+Compiling module xil_defaultlib.count_ones_32
+Compiling module xil_defaultlib.mem_element(ROW_WIDTH=32'b010001...
+Compiling module xil_defaultlib.clear_first_one
+Compiling module xil_defaultlib.data_mux_8_1(ROW_SIZE=1)
+Compiling module xil_defaultlib.data_mux_8_1(ROW_SIZE=10)
+Compiling module xil_defaultlib.mem_element(ROW_WIDTH=10,NUM_ROW...
+Compiling module xil_defaultlib.FIFO_rows(NUM_ROWS=695,ROW_SIZE=...
+Compiling module xil_defaultlib.end_controller(BRAM_ROWS=695,NO_...
+Compiling module xil_defaultlib.puzzle4_part2(ROW_SIZE=139,OUTPU...
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav

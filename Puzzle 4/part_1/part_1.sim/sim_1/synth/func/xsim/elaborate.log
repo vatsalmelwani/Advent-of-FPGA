@@ -1,0 +1,68 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_top_func_synth xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.count_ones
+Compiling module unisims_ver.BUFGCE(CE_TYPE="ASYNC",SIM_DEVIC...
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.count_ones_32
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.OBUF
+Compiling module xil_defaultlib.count_ones_0
+Compiling module xil_defaultlib.count_ones_1
+Compiling module xil_defaultlib.count_ones_2
+Compiling module xil_defaultlib.count_ones_3
+Compiling module xil_defaultlib.count_ones_4
+Compiling module xil_defaultlib.count_ones_5
+Compiling module xil_defaultlib.count_ones_6
+Compiling module xil_defaultlib.count_ones_7
+Compiling module xil_defaultlib.count_ones_8
+Compiling module xil_defaultlib.count_ones_9
+Compiling module xil_defaultlib.count_ones_10
+Compiling module xil_defaultlib.count_ones_11
+Compiling module xil_defaultlib.count_ones_12
+Compiling module xil_defaultlib.count_ones_13
+Compiling module xil_defaultlib.count_ones_14
+Compiling module xil_defaultlib.count_ones_15
+Compiling module xil_defaultlib.count_ones_16
+Compiling module xil_defaultlib.count_ones_17
+Compiling module xil_defaultlib.count_ones_18
+Compiling module xil_defaultlib.count_ones_19
+Compiling module xil_defaultlib.count_ones_20
+Compiling module xil_defaultlib.count_ones_21
+Compiling module xil_defaultlib.count_ones_22
+Compiling module xil_defaultlib.count_ones_23
+Compiling module xil_defaultlib.count_ones_24
+Compiling module xil_defaultlib.count_ones_25
+Compiling module xil_defaultlib.count_ones_26
+Compiling module xil_defaultlib.count_ones_27
+Compiling module xil_defaultlib.count_ones_28
+Compiling module xil_defaultlib.count_ones_29
+Compiling module xil_defaultlib.count_ones_30
+Compiling module xil_defaultlib.row_reg
+Compiling module xil_defaultlib.row_reg_31
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.ring_row_index
+Compiling module unisims_ver.CARRY8
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.word_index_counter
+Compiling module xil_defaultlib.puzzle4_part1
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_func_synth

@@ -1,0 +1,152 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Dec 25 02:53:25 2025
+# Process ID         : 13912
+# Current directory  : C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent18772 C:\Users\Vatsal Melwani\EE\FPGA\Advent_of_Code_JS\Puzzle 4\part_1\part_1.xpr
+# Log file           : C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/vivado.log
+# Journal file       : C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1\vivado.jou
+# Running On         : LAPTOP-N5PG3M81
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 258V
+# CPU Frequency      : 3302 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 33873 MB
+# Swap memory        : 88580 MB
+# Total Virtual      : 122453 MB
+# Available Virtual  : 94297 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/count_ones.v} w ]
+add_files {{C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/count_ones.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/puzzle_part1.v} w ]
+add_files {{C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/puzzle_part1.v}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/puzzle_part1.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/puzzle_part1.v}}
+close [ open {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/puzzle4_part1.v} w ]
+add_files {{C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/puzzle4_part1.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/count_ones_32.v} w ]
+add_files {{C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/count_ones_32.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+source tb_top.tcl
+restart
+run 600 ns
+restart
+run all
+restart
+run 600 ns
+restart
+run 600 ns
+relaunch_sim
+restart
+run 600 ns
+relaunch_sim
+relaunch_sim
+restart
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+restart
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+save_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {{C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/Python/Part 1/padded_inp.mem}}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+source tb_top.tcl
+run 600 ns
+run 600 ns
+run 600 ns
+run 600 ns
+run 600 ns
+run 600 ns
+run 600 ns
+run 600 ns
+run 600 ns
+run 600 ns
+run 600 ns
+run 600 ns
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+source tb_top.tcl
+run 3000 ns
+run 3000 ns
+run 3000 ns
+relaunch_sim
+run 15000 ns
+relaunch_sim
+restart
+run 7500 ns
+restart
+run 7500 ns
+relaunch_sim
+save_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+source tb_top.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+source tb_top.tcl
+close_sim
+launch_simulation
+open_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+source tb_top.tcl
+relaunch_sim
+restart
+run 7500 ns
+restart
+run 7500 ns
+restart
+run 7500 ns
+relaunch_sim
+relaunch_sim
+restart
+run 7500 ns
+save_wave_config {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/tb_top_behav.wcfg}
+close_sim

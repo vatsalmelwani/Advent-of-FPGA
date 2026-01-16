@@ -1,0 +1,280 @@
+
+*** Running vivado
+    with args -log puzzle4_part1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source puzzle4_part1.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Tue Dec 30 01:37:31 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source puzzle4_part1.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/utils_1/imports/synth_1/puzzle4_part1.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/utils_1/imports/synth_1/puzzle4_part1.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top puzzle4_part1 -part xck26-sfvc784-2LV-c
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1352
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1031.285 ; gain = 499.301
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6901] identifier 'WORD_INDEX_BITS' is used before its declaration [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/ring_row_index.v:32]
+WARNING: [Synth 8-6901] identifier 'WORD_INDEX_BITS' is used before its declaration [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/row_reg.v:35]
+WARNING: [Synth 8-6901] identifier 'WORD_INDEX_BITS' is used before its declaration [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/word_index_counter.v:30]
+WARNING: [Synth 8-6901] identifier 'upper_row_data' is used before its declaration [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/puzzle4_part1.v:106]
+INFO: [Synth 8-6157] synthesizing module 'puzzle4_part1' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/puzzle4_part1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'count_ones' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/count_ones.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'count_ones' (0#1) [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/count_ones.v:23]
+INFO: [Synth 8-6157] synthesizing module 'word_index_counter' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/word_index_counter.v:23]
+	Parameter ROW_SIZE bound to: 160 - type: integer 
+	Parameter MODULAR_SIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'word_index_counter' (0#1) [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/word_index_counter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ring_row_index' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/ring_row_index.v:23]
+	Parameter ROW_SIZE bound to: 160 - type: integer 
+	Parameter MODULAR_SIZE bound to: 32 - type: integer 
+	Parameter INDEX_U bound to: 1'b0 
+	Parameter INDEX_M bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'ring_row_index' (0#1) [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/ring_row_index.v:23]
+INFO: [Synth 8-6157] synthesizing module 'row_reg' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/row_reg.v:23]
+	Parameter ROW_SIZE bound to: 160 - type: integer 
+	Parameter MODULAR_SIZE bound to: 32 - type: integer 
+	Parameter INDEX_U bound to: 1'b0 
+	Parameter INDEX_M bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'row_reg' (0#1) [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/row_reg.v:23]
+INFO: [Synth 8-6157] synthesizing module 'data_mux_4x1' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/data_mux_4x1.v:23]
+	Parameter DATA_WIDTH bound to: 34 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'data_mux_4x1' (0#1) [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/data_mux_4x1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'count_ones_32' [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/count_ones_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'count_ones_32' (0#1) [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/count_ones_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'puzzle4_part1' (0#1) [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.srcs/sources_1/new/puzzle4_part1.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1140.383 ; gain = 608.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1140.383 ; gain = 608.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1140.383 ; gain = 608.398
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1140.383 ; gain = 608.398
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   33 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 4     
+	   4 Input   16 Bit       Adders := 1     
+	  32 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   8 Input    4 Bit       Adders := 32    
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	              162 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input  162 Bit        Muxes := 8     
+	   2 Input   34 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1952.109 ; gain = 1420.125
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 1952.109 ; gain = 1420.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1952.109 ; gain = 1420.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2123.238 ; gain = 1591.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2123.238 ; gain = 1591.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2123.238 ; gain = 1591.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 2123.238 ; gain = 1591.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 2123.238 ; gain = 1591.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 2123.238 ; gain = 1591.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY8 |     6|
+|3     |LUT1   |     3|
+|4     |LUT2   |    55|
+|5     |LUT3   |   121|
+|6     |LUT4   |    79|
+|7     |LUT5   |   105|
+|8     |LUT6   |   195|
+|9     |MUXF7  |     4|
+|10    |MUXF8  |     1|
+|11    |FDRE   |   350|
+|12    |IBUF   |    35|
+|13    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------------------+-------------------+------+
+|      |Instance                         |Module             |Cells |
++------+---------------------------------+-------------------+------+
+|1     |top                              |                   |   971|
+|2     |  c_inst                         |count_ones         |     8|
+|3     |  cos32_inst                     |count_ones_32      |    44|
+|4     |  \result_vector_gen[10].c_inst  |count_ones_0       |     4|
+|5     |  \result_vector_gen[11].c_inst  |count_ones_1       |     5|
+|6     |  \result_vector_gen[12].c_inst  |count_ones_2       |     5|
+|7     |  \result_vector_gen[13].c_inst  |count_ones_3       |     5|
+|8     |  \result_vector_gen[14].c_inst  |count_ones_4       |     5|
+|9     |  \result_vector_gen[15].c_inst  |count_ones_5       |     5|
+|10    |  \result_vector_gen[16].c_inst  |count_ones_6       |     4|
+|11    |  \result_vector_gen[17].c_inst  |count_ones_7       |     5|
+|12    |  \result_vector_gen[18].c_inst  |count_ones_8       |     5|
+|13    |  \result_vector_gen[19].c_inst  |count_ones_9       |     4|
+|14    |  \result_vector_gen[1].c_inst   |count_ones_10      |     5|
+|15    |  \result_vector_gen[20].c_inst  |count_ones_11      |     5|
+|16    |  \result_vector_gen[21].c_inst  |count_ones_12      |     5|
+|17    |  \result_vector_gen[22].c_inst  |count_ones_13      |     5|
+|18    |  \result_vector_gen[23].c_inst  |count_ones_14      |     4|
+|19    |  \result_vector_gen[24].c_inst  |count_ones_15      |     5|
+|20    |  \result_vector_gen[25].c_inst  |count_ones_16      |     5|
+|21    |  \result_vector_gen[26].c_inst  |count_ones_17      |     5|
+|22    |  \result_vector_gen[27].c_inst  |count_ones_18      |     5|
+|23    |  \result_vector_gen[28].c_inst  |count_ones_19      |     9|
+|24    |  \result_vector_gen[29].c_inst  |count_ones_20      |     9|
+|25    |  \result_vector_gen[2].c_inst   |count_ones_21      |     5|
+|26    |  \result_vector_gen[30].c_inst  |count_ones_22      |     4|
+|27    |  \result_vector_gen[31].c_inst  |count_ones_23      |     4|
+|28    |  \result_vector_gen[3].c_inst   |count_ones_24      |     5|
+|29    |  \result_vector_gen[4].c_inst   |count_ones_25      |     4|
+|30    |  \result_vector_gen[5].c_inst   |count_ones_26      |     9|
+|31    |  \result_vector_gen[6].c_inst   |count_ones_27      |     5|
+|32    |  \result_vector_gen[7].c_inst   |count_ones_28      |     5|
+|33    |  \result_vector_gen[8].c_inst   |count_ones_29      |     4|
+|34    |  \result_vector_gen[9].c_inst   |count_ones_30      |     5|
+|35    |  rr_m_inst                      |row_reg            |   207|
+|36    |  rr_u_inst                      |row_reg_31         |   207|
+|37    |  rri_inst                       |ring_row_index     |     9|
+|38    |  wic_inst                       |word_index_counter |   264|
++------+---------------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 2123.238 ; gain = 1591.254
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 2123.238 ; gain = 1591.254
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 2123.238 ; gain = 1591.254
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2136.773 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2246.031 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 36 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  IBUF => IBUF (IBUFCTRL, INBUF): 35 instances
+
+Synth Design complete | Checksum: b53541f0
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 2246.031 ; gain = 1720.336
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2246.031 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 4/part_1/part_1.runs/synth_1/puzzle4_part1.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file puzzle4_part1_utilization_synth.rpt -pb puzzle4_part1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 30 01:38:06 2025...

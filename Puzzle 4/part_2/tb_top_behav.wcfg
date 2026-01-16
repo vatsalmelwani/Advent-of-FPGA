@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="265,597.400 ns"></ZoomStartTime>
+      <ZoomEndTime time="265,643.001 ns"></ZoomEndTime>
+      <Cursor1Time time="265,628.200 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="1009"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="79" />
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/din6" type="array">
+      <obj_property name="ElementShortName">din6[0:9]</obj_property>
+      <obj_property name="ObjectShortName">din6[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/din7" type="array">
+      <obj_property name="ElementShortName">din7[0:9]</obj_property>
+      <obj_property name="ObjectShortName">din7[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/din8" type="array">
+      <obj_property name="ElementShortName">din8[0:9]</obj_property>
+      <obj_property name="ObjectShortName">din8[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/we6" type="logic">
+      <obj_property name="ElementShortName">we6</obj_property>
+      <obj_property name="ObjectShortName">we6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/we7" type="logic">
+      <obj_property name="ElementShortName">we7</obj_property>
+      <obj_property name="ObjectShortName">we7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/we8" type="logic">
+      <obj_property name="ElementShortName">we8</obj_property>
+      <obj_property name="ObjectShortName">we8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/start_process" type="logic">
+      <obj_property name="ElementShortName">start_process</obj_property>
+      <obj_property name="ObjectShortName">start_process</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/counter_pops_bram" type="array">
+      <obj_property name="ElementShortName">counter_pops_bram[2:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_pops_bram[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/out_FIFO_re" type="logic">
+      <obj_property name="ElementShortName">out_FIFO_re</obj_property>
+      <obj_property name="ObjectShortName">out_FIFO_re</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/FIFO_d1_out" type="array">
+      <obj_property name="ElementShortName">FIFO_d1_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_d1_out[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/in_FIFO_data" type="array">
+      <obj_property name="ElementShortName">in_FIFO_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">in_FIFO_data[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/out_BRAM_read_addr" type="array">
+      <obj_property name="ElementShortName">out_BRAM_read_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">out_BRAM_read_addr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/upper_upper_row" type="array">
+      <obj_property name="ElementShortName">upper_upper_row[0:33]</obj_property>
+      <obj_property name="ObjectShortName">upper_upper_row[0:33]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/upper_row" type="array">
+      <obj_property name="ElementShortName">upper_row[0:33]</obj_property>
+      <obj_property name="ObjectShortName">upper_row[0:33]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/middle_row" type="array">
+      <obj_property name="ElementShortName">middle_row[0:33]</obj_property>
+      <obj_property name="ObjectShortName">middle_row[0:33]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/lower_row" type="array">
+      <obj_property name="ElementShortName">lower_row[0:33]</obj_property>
+      <obj_property name="ObjectShortName">lower_row[0:33]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/lower_lower_row" type="array">
+      <obj_property name="ElementShortName">lower_lower_row[0:33]</obj_property>
+      <obj_property name="ObjectShortName">lower_lower_row[0:33]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/BRAM_data_out" type="array">
+      <obj_property name="ElementShortName">BRAM_data_out[33:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_data_out[33:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/affected_upper_signals" type="array">
+      <obj_property name="ElementShortName">affected_upper_signals[0:31]</obj_property>
+      <obj_property name="ObjectShortName">affected_upper_signals[0:31]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/affected_lower_signals" type="array">
+      <obj_property name="ElementShortName">affected_lower_signals[0:31]</obj_property>
+      <obj_property name="ObjectShortName">affected_lower_signals[0:31]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/affected_middle_signals" type="array">
+      <obj_property name="ElementShortName">affected_middle_signals[0:31]</obj_property>
+      <obj_property name="ObjectShortName">affected_middle_signals[0:31]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/start_process_pulse" type="logic">
+      <obj_property name="ElementShortName">start_process_pulse</obj_property>
+      <obj_property name="ObjectShortName">start_process_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/u_aff" type="logic">
+      <obj_property name="ElementShortName">u_aff</obj_property>
+      <obj_property name="ObjectShortName">u_aff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/ul_aff" type="logic">
+      <obj_property name="ElementShortName">ul_aff</obj_property>
+      <obj_property name="ObjectShortName">ul_aff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/ur_aff" type="logic">
+      <obj_property name="ElementShortName">ur_aff</obj_property>
+      <obj_property name="ObjectShortName">ur_aff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/m_aff" type="logic">
+      <obj_property name="ElementShortName">m_aff</obj_property>
+      <obj_property name="ObjectShortName">m_aff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/ml_aff" type="logic">
+      <obj_property name="ElementShortName">ml_aff</obj_property>
+      <obj_property name="ObjectShortName">ml_aff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/mr_aff" type="logic">
+      <obj_property name="ElementShortName">mr_aff</obj_property>
+      <obj_property name="ObjectShortName">mr_aff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/l_aff" type="logic">
+      <obj_property name="ElementShortName">l_aff</obj_property>
+      <obj_property name="ObjectShortName">l_aff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/ll_aff" type="logic">
+      <obj_property name="ElementShortName">ll_aff</obj_property>
+      <obj_property name="ObjectShortName">ll_aff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/lr_aff" type="logic">
+      <obj_property name="ElementShortName">lr_aff</obj_property>
+      <obj_property name="ObjectShortName">lr_aff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/upper_upper_row_data" type="array">
+      <obj_property name="ElementShortName">upper_upper_row_data[0:33]</obj_property>
+      <obj_property name="ObjectShortName">upper_upper_row_data[0:33]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/done_initial" type="logic">
+      <obj_property name="ElementShortName">done_initial</obj_property>
+      <obj_property name="ObjectShortName">done_initial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/upper_row_data" type="array">
+      <obj_property name="ElementShortName">upper_row_data[0:33]</obj_property>
+      <obj_property name="ObjectShortName">upper_row_data[0:33]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/middle_row_data" type="array">
+      <obj_property name="ElementShortName">middle_row_data[0:33]</obj_property>
+      <obj_property name="ObjectShortName">middle_row_data[0:33]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/lower_row_data" type="array">
+      <obj_property name="ElementShortName">lower_row_data[0:33]</obj_property>
+      <obj_property name="ObjectShortName">lower_row_data[0:33]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/lower_lower_row_data" type="array">
+      <obj_property name="ElementShortName">lower_lower_row_data[0:33]</obj_property>
+      <obj_property name="ObjectShortName">lower_lower_row_data[0:33]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/w_ul" type="logic">
+      <obj_property name="ElementShortName">w_ul</obj_property>
+      <obj_property name="ObjectShortName">w_ul</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/w_u" type="logic">
+      <obj_property name="ElementShortName">w_u</obj_property>
+      <obj_property name="ObjectShortName">w_u</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/w_ur" type="logic">
+      <obj_property name="ElementShortName">w_ur</obj_property>
+      <obj_property name="ObjectShortName">w_ur</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/w_m" type="logic">
+      <obj_property name="ElementShortName">w_m</obj_property>
+      <obj_property name="ObjectShortName">w_m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/w_ml" type="logic">
+      <obj_property name="ElementShortName">w_ml</obj_property>
+      <obj_property name="ObjectShortName">w_ml</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/w_mr" type="logic">
+      <obj_property name="ElementShortName">w_mr</obj_property>
+      <obj_property name="ObjectShortName">w_mr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/w_l" type="logic">
+      <obj_property name="ElementShortName">w_l</obj_property>
+      <obj_property name="ObjectShortName">w_l</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/w_ll" type="logic">
+      <obj_property name="ElementShortName">w_ll</obj_property>
+      <obj_property name="ObjectShortName">w_ll</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/w_lr" type="logic">
+      <obj_property name="ElementShortName">w_lr</obj_property>
+      <obj_property name="ObjectShortName">w_lr</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider103">
+      <obj_property name="label">FIFO Downwards</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/re1" type="logic">
+      <obj_property name="ElementShortName">re1</obj_property>
+      <obj_property name="ObjectShortName">re1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/dout1_internal" type="array">
+      <obj_property name="ElementShortName">dout1_internal[0:9]</obj_property>
+      <obj_property name="ObjectShortName">dout1_internal[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/dout1_reg" type="array">
+      <obj_property name="ElementShortName">dout1_reg[0:9]</obj_property>
+      <obj_property name="ObjectShortName">dout1_reg[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/dout1" type="array">
+      <obj_property name="ElementShortName">dout1[0:9]</obj_property>
+      <obj_property name="ObjectShortName">dout1[0:9]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/skip_read_and_calc" type="logic">
+      <obj_property name="ElementShortName">skip_read_and_calc</obj_property>
+      <obj_property name="ObjectShortName">skip_read_and_calc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/FIFO_empty" type="logic">
+      <obj_property name="ElementShortName">FIFO_empty</obj_property>
+      <obj_property name="ObjectShortName">FIFO_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/valid_read_and_calc" type="logic">
+      <obj_property name="ElementShortName">valid_read_and_calc</obj_property>
+      <obj_property name="ObjectShortName">valid_read_and_calc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/FIFO_empty" type="logic">
+      <obj_property name="ElementShortName">FIFO_empty</obj_property>
+      <obj_property name="ObjectShortName">FIFO_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/BRAM_we" type="logic">
+      <obj_property name="ElementShortName">BRAM_we</obj_property>
+      <obj_property name="ObjectShortName">BRAM_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/BRAM_write_addr" type="array">
+      <obj_property name="ElementShortName">BRAM_write_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_write_addr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/BRAM_write_data" type="array">
+      <obj_property name="ElementShortName">BRAM_write_data[0:33]</obj_property>
+      <obj_property name="ObjectShortName">BRAM_write_data[0:33]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/change_in_0_idx" type="logic">
+      <obj_property name="ElementShortName">change_in_0_idx</obj_property>
+      <obj_property name="ObjectShortName">change_in_0_idx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/change_in_last_idx" type="logic">
+      <obj_property name="ElementShortName">change_in_last_idx</obj_property>
+      <obj_property name="ObjectShortName">change_in_last_idx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/out_sum" type="array">
+      <obj_property name="ElementShortName">out_sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_sum[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/done_all" type="logic">
+      <obj_property name="ElementShortName">done_all</obj_property>
+      <obj_property name="ObjectShortName">done_all</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/FIFO_wptr" type="array">
+      <obj_property name="ElementShortName">FIFO_wptr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_wptr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/FIFO_rptr" type="array">
+      <obj_property name="ElementShortName">FIFO_rptr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_rptr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/mask_write_signals" type="logic">
+      <obj_property name="ElementShortName">mask_write_signals</obj_property>
+      <obj_property name="ObjectShortName">mask_write_signals</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/num_writes" type="array">
+      <obj_property name="ElementShortName">num_writes[4:0]</obj_property>
+      <obj_property name="ObjectShortName">num_writes[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/out_sum" type="array">
+      <obj_property name="ElementShortName">out_sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_sum[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/mem_1_inst/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/mem_2_inst/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/mem_3_inst/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/mem_4_inst/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/mem_5_inst/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/mem_6_inst/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/mem_7_inst/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fifo_inst/mem_8_inst/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:86][9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/mem_inst/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:694][33:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:694][33:0]</obj_property>
+   </wvobject>
+</wave_config>
