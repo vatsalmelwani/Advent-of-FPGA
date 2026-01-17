@@ -2,15 +2,16 @@
 
 module tb_puzzle_1;
 
-    reg  [9:0] inp_bin_val;
-    reg        R_L;
-    reg        clk;
-    reg        rst;
+    reg  [9:0]  inp_bin_val;
+    reg         R_L;
+    reg         clk;
+    reg         rst;
+    reg         enable;
     wire [15:0] out_zero_counts;
 
-    // Memory arrays for inputs
-    reg        R_L_mem [0:4530];      // holds 1-bit values
-    reg [9:0]  val_mem [0:4530];      // holds 10-bit hex values
+    // Memory arrays
+    reg         R_L_mem [0:4530];
+    reg [9:0]   val_mem [0:4530];
 
     integer idx;
 
@@ -20,30 +21,51 @@ module tb_puzzle_1;
         .R_L(R_L),
         .clk(clk),
         .rst(rst),
+        .enable(enable),
         .out_zero_counts(out_zero_counts)
     );
 
-    // Clock generation (100 MHz → 10 ns period)
+    // Clock: 100 MHz (10 ns)
     always #5 clk = ~clk;
 
     initial begin
+        // -----------------------------
+        // Init
+        // -----------------------------
         clk = 0;
         rst = 1;
+        enable = 0;
+        inp_bin_val = 0;
+        R_L = 0;
 
-        // Load files
-        $readmemb("direc.mem", R_L_mem);   // 1-bit values per line
-        $readmemh("val.mem",  val_mem);    // hex values per line (3 hex digits)
+        // Load stimulus files
+        $readmemb("direc.mem", R_L_mem);
+        $readmemh("val.mem",  val_mem);
 
-        // Release reset
-        #20 rst = 0;
+        // Hold reset for a few cycles
+        repeat (3) @(posedge clk);
+        rst = 0;
 
-        // Apply values line-by-line
+        // -----------------------------
+        // Apply inputs ONCE
+        // -----------------------------
+        enable = 1;
+
         for (idx = 0; idx < 4531; idx = idx + 1) begin
-            R_L        = R_L_mem[idx];
-            inp_bin_val = val_mem[idx];    // automatically fits in 10 bits
-
-            #10;  // delay per stimulus
+            @(posedge clk);
+            R_L         <= R_L_mem[idx];
+            inp_bin_val <= val_mem[idx];
         end
+
+        // -----------------------------
+        // Disable after last input
+        // -----------------------------
+        @(posedge clk);
+        enable <= 0;
+
+        // Optional: let outputs settle
+        repeat (10) @(posedge clk);
+
     end
 
 endmodule

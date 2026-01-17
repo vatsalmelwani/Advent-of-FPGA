@@ -36,7 +36,7 @@ module accum_code(
     reg accum_zero_cross_reg;
     always @(posedge clk) begin
         if(rst) begin
-            accum_val <= 'd0;
+            accum_val <= 8'h50;
             BCD_mod_reg <= 'd0;
             accum_zero_cross_reg <= 'd0;
         end else begin

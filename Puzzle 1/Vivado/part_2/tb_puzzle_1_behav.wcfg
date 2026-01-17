@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="5,469.400 ns"></ZoomStartTime>
-      <ZoomEndTime time="5,518.701 ns"></ZoomEndTime>
-      <Cursor1Time time="5,562.600 ns"></Cursor1Time>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="53.500001 us"></ZoomEndTime>
+      <Cursor1Time time="46.528956 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="261"></NameColumnWidth>
-      <ValueColumnWidth column_width="249"></ValueColumnWidth>
+      <ValueColumnWidth column_width="237"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="8" />
+   <WVObjectSize size="10" />
    <wvobject fp_name="/tb_puzzle_1/inp_bin_val" type="array">
       <obj_property name="ElementShortName">inp_bin_val[9:0]</obj_property>
       <obj_property name="ObjectShortName">inp_bin_val[9:0]</obj_property>
@@ -52,6 +52,10 @@
       <obj_property name="ObjectShortName">out_mod[3:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
+   <wvobject fp_name="/tb_puzzle_1/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
    <wvobject fp_name="group12" type="group">
       <obj_property name="label">Zero_Counter</obj_property>
       <obj_property name="DisplayName">label</obj_property>
@@ -68,10 +72,10 @@
          <obj_property name="ElementShortName">inp_accum_zero_cross</obj_property>
          <obj_property name="ObjectShortName">inp_accum_zero_cross</obj_property>
       </wvobject>
-      <wvobject fp_name="/tb_puzzle_1/out_zero_counts" type="array">
-         <obj_property name="ElementShortName">out_zero_counts[15:0]</obj_property>
-         <obj_property name="ObjectShortName">out_zero_counts[15:0]</obj_property>
-         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_puzzle_1/out_zero_counts" type="array">
+      <obj_property name="ElementShortName">out_zero_counts[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_zero_counts[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
 </wave_config>

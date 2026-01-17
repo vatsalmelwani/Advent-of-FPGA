@@ -23,6 +23,7 @@
 module Zero_counter(
     input       wire                    clk,
     input       wire                    rst,
+    input       wire                    enable,
     input       wire        [7:0]       inp_accum_BCD_val,
     input       wire                    inp_accum_zero_cross,
     input       wire        [3:0]       inp_BCD_mod,
@@ -31,8 +32,8 @@ module Zero_counter(
     
     always @(posedge clk) begin
         if(rst) begin
-            out_zero_counts <= 16'hFFFF;
-        end else begin
+            out_zero_counts <= 16'h0000;
+        end else if(enable) begin
             out_zero_counts <= out_zero_counts + (inp_accum_BCD_val == 'd0) + inp_accum_zero_cross + inp_BCD_mod;
         end
     end

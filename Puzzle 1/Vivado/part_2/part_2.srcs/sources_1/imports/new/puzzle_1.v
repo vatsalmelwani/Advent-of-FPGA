@@ -25,6 +25,7 @@ module puzzle_1(
     input       wire                    R_L,
     input       wire                    clk,
     input       wire                    rst,
+    input       wire                    enable,
     output      wire        [15:0]      out_zero_counts
     );
     
@@ -55,6 +56,7 @@ module puzzle_1(
     Zero_counter zero_counter_inst (
         .clk(clk),
         .rst(rst),
+        .enable(enable),
         .inp_accum_BCD_val(accum_val),
         .inp_accum_zero_cross(accum_zero_cross),
         .inp_BCD_mod(BCD_mod_out),
