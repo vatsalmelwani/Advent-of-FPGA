@@ -1,5 +1,8 @@
-open Hardcaml
-
+#require "hardcaml";;
+open Hardcaml;;
+open Signal;;
+#require "base";;
+open Base;;
 (* ===================================================== *)
 (* count_ones : combinational                             *)
 (* ===================================================== *)

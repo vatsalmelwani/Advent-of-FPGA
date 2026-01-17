@@ -4,6 +4,7 @@ verilog xil_defaultlib  --include "../../../../../../../../../../../../Xilinx/20
 "../../../../part_2.srcs/sources_1/new/FSM_for_max.v" \
 "../../../../part_2.srcs/sources_1/new/bcd_to_bin_conv.v" \
 "../../../../part_2.srcs/sources_1/imports/new/bcd_to_dec.v" \
+"../../../../part_2.srcs/sources_1/imports/sources_1/new/priority_encoder.v" \
 "../../../../part_2.srcs/sources_1/new/puzzle3_part2.v" \
 "../../../../part_2.srcs/sim_1/new/tb_top.v" \
 

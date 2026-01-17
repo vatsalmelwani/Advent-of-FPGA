@@ -1,7 +1,6 @@
 #require "hardcaml";;
 open Hardcaml;;
 open Signal;;
-open Bits;;
 #require "base";;
 open Base;;
 (* ===================================================== *)
