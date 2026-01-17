@@ -59,6 +59,8 @@ Hence, after much thought, paper analysis of storage required, analyzing converg
 It will become much more clear why it is better in the next section when the exact architecture is explained.
 
 ### Final Architecture:
+### NOTE: This implementation has linear time complexity wrt number of elements, while optimizing for memory and performace mainly. See the details below:
+
 1) Like in part 1, the starting remains almost the same. You get the data chunk by chunk from the testbench (32 bits).
 2) Then, the computation starts as soon as first chunk of second row comes. Now, let's call 'result_vector' to be a 32 bit signal which is 1 when there's a _bomb_ in the current chunk under computation and 0 if not.
 3) Using result_vector, 2 things are generated:
