@@ -26,9 +26,6 @@ Each '@' has been converted to a '1' and each '.' has been converted to a '0'. D
 8) Hence, other than the last bit of chunk, computation is completely done and the last bit's result is corrected in the next cycle using 1 bits storage for the previous bit and the count of 1's it had in it's 7 available neighbours.
 9) The sum is finally accumulated in a 16 bit output, and is the top level output.
 
-Following is a brief paper design of the architecture:
-
-
 ## Part 2 Architecture
 This is a real **devil problem** and a challenge in a true sense.
 For better readability, let's call 1's with less than four 1 neighbours as a '_bomb_'.
@@ -88,7 +85,6 @@ It will become much more clear why it is better in the next section when the exa
     g) To ensure an index is not copied in the FIFO, a reg of [number of chunks] lenmgth in maintained as a flag to tell if the index is in FIFO already. If so, the pushing of index to FIFO is skipped as it will anyways be enountered sometime in future.
 11) Now, just wait for FIFO to get empty. This will give you the final outupt sum, that is the number of _bombs_.
 
-### Visual Reference of the Architecture:
 
 ## Some of the many challenges encountered:
 1) Managing edge cases: bits at the end of a chunk are almost always to be handled differently. There were many many debug cycles and algorithm changes just becuase of the edge cases present. One very good solution I though of was of storing 34 bits instead of 32 that helped in improving the performance while handling edge cases simultaously.
