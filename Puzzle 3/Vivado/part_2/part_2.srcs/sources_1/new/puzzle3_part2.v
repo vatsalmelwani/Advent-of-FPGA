@@ -36,6 +36,8 @@ module puzzle3_part2 #(
     );
 
     // Converting the input number to BCD format, 4 bits for each digit.
+    
+    reg update_delay;
     wire [NUM_DIGITS*4 -1:0] bcd_num;
     BCD_conv #(
         .IN_WIDTH(IN_WIDTH),
@@ -99,7 +101,7 @@ module puzzle3_part2 #(
     );
 
     always @(posedge clk) begin
-        if (rst) begin
+        if (rst || fsm_a_done && counter == SELECT_NUM_DIGITS - 1) begin
             outer_max_idx <= NUM_DIGITS+1'd1;
         end else if (fsm_a_done_wire) begin
             outer_max_idx <= fsm_outer_max_idx;
@@ -110,7 +112,7 @@ module puzzle3_part2 #(
         if (rst) begin
             fsm_out_num <= {NUM_DIGITS*4{1'b0}};
         end else if (fsm_a_done_wire) begin
-            fsm_out_num[(counter+1)*4 -1 -: 4] <= fsm_out_num_wire;
+            fsm_out_num[(SELECT_NUM_DIGITS - counter)*4 -1 -: 4] <= fsm_out_num_wire;
         end
     end
 
@@ -145,7 +147,17 @@ module puzzle3_part2 #(
     always @(posedge clk) begin
         if (rst) begin
             out_num <= 16'd0;
+            update_delay <= 1'b0;
         end else if (fsm_a_done && counter == SELECT_NUM_DIGITS - 1) begin
+            update_delay<=1'b1;
+        end else begin
+            update_delay<=1'b0;
+        end
+    end
+    always @(posedge clk) begin
+        if (rst) begin
+            out_num <= 16'd0;
+        end else if(update_delay) begin
             out_num <= out_num + final_bin_num;
         end
     end
