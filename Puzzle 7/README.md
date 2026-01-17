@@ -11,7 +11,7 @@
 7) part_2_only_files: Contains all verilog (including testbench) and .mem files necessary for running part_2 simulation.
 
 ## Modules Hierarchy:
-1) top : contains top level code and all instantiations (same for both parts)
+1) top : contains top level code and all instantiations (same for both parts). top.v has all module definitions also.
 2) tb_top : the top level testbench. Instantiates the top and gives the puzzle input. Requires a .mem file for giving inputs.
 
 ## Mem file and Input format:
