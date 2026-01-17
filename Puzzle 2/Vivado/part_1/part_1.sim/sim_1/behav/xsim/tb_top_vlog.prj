@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../part_1.srcs/sources_1/imports/new/BCD_conv.v" \
+"../../../../part_1.srcs/sources_1/new/FSM_for_max.v" \
+"../../../../part_1.srcs/sources_1/new/bcd_to_dec.v" \
+"../../../../part_1.srcs/sources_1/new/priority_encoder.v" \
+"../../../../part_1.srcs/sources_1/new/puzzle3_part1.v" \
+"../../../../part_1.srcs/sim_1/new/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="473.501 ns"></ZoomEndTime>
+      <Cursor1Time time="59.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="294"></NameColumnWidth>
+      <ValueColumnWidth column_width="224"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb_top/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/in_num" type="array">
+      <obj_property name="ElementShortName">in_num[335:0]</obj_property>
+      <obj_property name="ObjectShortName">in_num[335:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/bcd_num" type="array">
+      <obj_property name="ElementShortName">bcd_num[399:0]</obj_property>
+      <obj_property name="ObjectShortName">bcd_num[399:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/enc_inp" type="array">
+      <obj_property name="ElementShortName">enc_inp[99:0]</obj_property>
+      <obj_property name="ObjectShortName">enc_inp[99:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/a_done" type="array">
+      <obj_property name="ElementShortName">a_done[0:11]</obj_property>
+      <obj_property name="ObjectShortName">a_done[0:11]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/fsm_outer_max_idx" type="array">
+      <obj_property name="ElementShortName">fsm_outer_max_idx[0:12][6:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm_outer_max_idx[0:12][6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/mux_sel" type="array">
+      <obj_property name="ElementShortName">mux_sel[0:11][3:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_sel[0:11][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/\GEN_FSM_FOR_MAX[10].fsm_for_max_inst /start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/\GEN_FSM_FOR_MAX[10].fsm_for_max_inst /in_enc_outp" type="array">
+      <obj_property name="ElementShortName">in_enc_outp[6:0]</obj_property>
+      <obj_property name="ObjectShortName">in_enc_outp[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/\GEN_FSM_FOR_MAX[10].fsm_for_max_inst /a_done" type="logic">
+      <obj_property name="ElementShortName">a_done</obj_property>
+      <obj_property name="ObjectShortName">a_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/\GEN_FSM_FOR_MAX[10].fsm_for_max_inst /state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/\GEN_FSM_FOR_MAX[10].fsm_for_max_inst /start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/\GEN_FSM_FOR_MAX[7].fsm_for_max_inst /start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+</wave_config>

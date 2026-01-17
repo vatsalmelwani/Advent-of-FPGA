@@ -1,0 +1,108 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 594. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 557. Module mod_counter_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 302. Module bram_instance doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 393. Module storage_chunked_neighbor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 356. Module init_done doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 302. Module bram_instance doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 265. Module mod_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 206. Module computation_start doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 142. Module accumulate_5_cycles doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 1. Module sum_2048_to_64 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 594. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 557. Module mod_counter_1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 302. Module bram_instance doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 393. Module storage_chunked_neighbor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 356. Module init_done doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 337. Module calc_next_sum doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 302. Module bram_instance doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 265. Module mod_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 206. Module computation_start doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 142. Module accumulate_5_cycles doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 7/part_2/part_2.srcs/sources_1/new/top.v" Line 1. Module sum_2048_to_64 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mod_counter_1
+Compiling module xil_defaultlib.bram_instance
+Compiling module xil_defaultlib.calc_next_sum
+Compiling module xil_defaultlib.storage_chunked_neighbor
+Compiling module xil_defaultlib.init_done
+Compiling module xil_defaultlib.mod_counter
+Compiling module xil_defaultlib.computation_start
+Compiling module xil_defaultlib.sum_2048_to_64
+Compiling module xil_defaultlib.accumulate_5_cycles
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav

@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="265,597.400 ns"></ZoomStartTime>
-      <ZoomEndTime time="265,643.001 ns"></ZoomEndTime>
-      <Cursor1Time time="265,628.200 ns"></Cursor1Time>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="273.500001 us"></ZoomEndTime>
+      <Cursor1Time time="269.625148 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="228"></NameColumnWidth>
-      <ValueColumnWidth column_width="1009"></ValueColumnWidth>
+      <ValueColumnWidth column_width="390"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="79" />
+   <WVObjectSize size="73" />
    <wvobject fp_name="/tb_top/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -32,37 +32,22 @@
       <obj_property name="ElementShortName">enable</obj_property>
       <obj_property name="ObjectShortName">enable</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_top/dut/fifo_inst/din6" type="array">
-      <obj_property name="ElementShortName">din6[0:9]</obj_property>
-      <obj_property name="ObjectShortName">din6[0:9]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/dut/fifo_inst/din7" type="array">
-      <obj_property name="ElementShortName">din7[0:9]</obj_property>
-      <obj_property name="ObjectShortName">din7[0:9]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/dut/fifo_inst/din8" type="array">
-      <obj_property name="ElementShortName">din8[0:9]</obj_property>
-      <obj_property name="ObjectShortName">din8[0:9]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/dut/fifo_inst/we6" type="logic">
-      <obj_property name="ElementShortName">we6</obj_property>
-      <obj_property name="ObjectShortName">we6</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/dut/fifo_inst/we7" type="logic">
-      <obj_property name="ElementShortName">we7</obj_property>
-      <obj_property name="ObjectShortName">we7</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/dut/fifo_inst/we8" type="logic">
-      <obj_property name="ElementShortName">we8</obj_property>
-      <obj_property name="ObjectShortName">we8</obj_property>
-   </wvobject>
    <wvobject fp_name="/tb_top/dut/ec_inst/start_process" type="logic">
       <obj_property name="ElementShortName">start_process</obj_property>
       <obj_property name="ObjectShortName">start_process</obj_property>
    </wvobject>
+   <wvobject fp_name="/tb_top/out_sum" type="array">
+      <obj_property name="ElementShortName">out_sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_sum[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
    <wvobject fp_name="/tb_top/dut/ec_inst/counter_pops_bram" type="array">
       <obj_property name="ElementShortName">counter_pops_bram[2:0]</obj_property>
       <obj_property name="ObjectShortName">counter_pops_bram[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/dut/ec_inst/done_all" type="logic">
+      <obj_property name="ElementShortName">done_all</obj_property>
+      <obj_property name="ObjectShortName">done_all</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_top/dut/ec_inst/out_FIFO_re" type="logic">
       <obj_property name="ElementShortName">out_FIFO_re</obj_property>
@@ -288,15 +273,6 @@
    <wvobject fp_name="/tb_top/dut/ec_inst/change_in_last_idx" type="logic">
       <obj_property name="ElementShortName">change_in_last_idx</obj_property>
       <obj_property name="ObjectShortName">change_in_last_idx</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/out_sum" type="array">
-      <obj_property name="ElementShortName">out_sum[15:0]</obj_property>
-      <obj_property name="ObjectShortName">out_sum[15:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_top/dut/ec_inst/done_all" type="logic">
-      <obj_property name="ElementShortName">done_all</obj_property>
-      <obj_property name="ObjectShortName">done_all</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_top/dut/fifo_inst/FIFO_wptr" type="array">
       <obj_property name="ElementShortName">FIFO_wptr[9:0]</obj_property>

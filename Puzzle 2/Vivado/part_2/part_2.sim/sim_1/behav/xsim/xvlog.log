@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 2/Vivado/part_2/part_2.srcs/sources_1/imports/sources_1/imports/new/BCD_conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 2/Vivado/part_2/part_2.srcs/sources_1/new/FSM_for_max.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM_for_max
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 2/Vivado/part_2/part_2.srcs/sources_1/new/bcd_to_bin_conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd_to_bin_conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 2/Vivado/part_2/part_2.srcs/sources_1/imports/new/bcd_to_dec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd_to_dec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 2/Vivado/part_2/part_2.srcs/sources_1/new/puzzle3_part2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module puzzle3_part2
+WARNING: [VRFC 10-2938] 'enc_inp' is already implicitly declared on line 64 [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 2/Vivado/part_2/part_2.srcs/sources_1/new/puzzle3_part2.v:71]
+WARNING: [VRFC 10-2938] 'counter' is already implicitly declared on line 92 [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 2/Vivado/part_2/part_2.srcs/sources_1/new/puzzle3_part2.v:117]
+WARNING: [VRFC 10-8864] concatenation with an unsized literal will be treated as 32 bits [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 2/Vivado/part_2/part_2.srcs/sources_1/new/puzzle3_part2.v:92]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 2/Vivado/part_2/part_2.srcs/sim_1/new/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
