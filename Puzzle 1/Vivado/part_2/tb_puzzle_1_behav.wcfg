@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_puzzle_1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_puzzle_1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5,469.400 ns"></ZoomStartTime>
+      <ZoomEndTime time="5,518.701 ns"></ZoomEndTime>
+      <Cursor1Time time="5,562.600 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="261"></NameColumnWidth>
+      <ValueColumnWidth column_width="249"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_puzzle_1/inp_bin_val" type="array">
+      <obj_property name="ElementShortName">inp_bin_val[9:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_bin_val[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_puzzle_1/R_L" type="logic">
+      <obj_property name="ElementShortName">R_L</obj_property>
+      <obj_property name="ObjectShortName">R_L</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_puzzle_1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_puzzle_1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_puzzle_1/uut/bcd_conv_inst/inp_val" type="array">
+      <obj_property name="ElementShortName">inp_val[9:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_val[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_puzzle_1/idx" type="array">
+      <obj_property name="ElementShortName">idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_puzzle_1/uut/bcd_conv_inst/out_mod" type="array">
+      <obj_property name="ElementShortName">out_mod[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out_mod[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">Zero_Counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_puzzle_1/uut/zero_counter_inst/inp_accum_BCD_val" type="array">
+         <obj_property name="ElementShortName">inp_accum_BCD_val[7:0]</obj_property>
+         <obj_property name="ObjectShortName">inp_accum_BCD_val[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_puzzle_1/uut/zero_counter_inst/inp_BCD_mod" type="array">
+         <obj_property name="ElementShortName">inp_BCD_mod[3:0]</obj_property>
+         <obj_property name="ObjectShortName">inp_BCD_mod[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_puzzle_1/uut/zero_counter_inst/inp_accum_zero_cross" type="logic">
+         <obj_property name="ElementShortName">inp_accum_zero_cross</obj_property>
+         <obj_property name="ObjectShortName">inp_accum_zero_cross</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_puzzle_1/out_zero_counts" type="array">
+         <obj_property name="ElementShortName">out_zero_counts[15:0]</obj_property>
+         <obj_property name="ObjectShortName">out_zero_counts[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

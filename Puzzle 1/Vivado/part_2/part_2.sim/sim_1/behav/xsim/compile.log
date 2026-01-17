@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 1/Vivado/part_2/part_2.srcs/sources_1/imports/new/BCD_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 1/Vivado/part_2/part_2.srcs/sources_1/imports/new/BCD_conv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_conv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 1/Vivado/part_2/part_2.srcs/sources_1/imports/new/Zero_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Zero_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 1/Vivado/part_2/part_2.srcs/sources_1/imports/new/accum_code.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accum_code
+WARNING: [VRFC 10-3380] identifier 'new_accum_val_sum' is used before its declaration [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 1/Vivado/part_2/part_2.srcs/sources_1/imports/new/accum_code.v:43]
+WARNING: [VRFC 10-3380] identifier 'new_accum_val_sum' is used before its declaration [C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 1/Vivado/part_2/part_2.srcs/sources_1/imports/new/accum_code.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 1/Vivado/part_2/part_2.srcs/sources_1/imports/new/puzzle_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module puzzle_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Vatsal Melwani/EE/FPGA/Advent_of_Code_JS/Puzzle 1/Vivado/part_2/part_2.srcs/sim_1/imports/new/tb_puzzle_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_puzzle_1
