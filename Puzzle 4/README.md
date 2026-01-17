@@ -9,7 +9,7 @@ Both parts of the puzzle 4 have been solved. First, the directory hierarchy will
 5) part_2_only_files: Contains all verilog (including testbench) and .mem files necessary for running part_2 simulation.
 
 ## Modules Hierarchy:
-1) puzzle7_part_i : contains top level code and all instantiations for part i of the puzzle where i is {0,1}
+1) puzzle7_parti : contains top level code and all instantiations for part i of the puzzle where i is {0,1}
 2) tb_top : the top level testbench. Instantiates the puzzle7_part_i and gives the puzzle input. Requires a .mem file for giving inputs.
 
 ## Mem file and Input format:
